@@ -1,0 +1,89 @@
+.spectral-extralight {
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+    font-size: 15px;
+    background: linear-gradient(0deg, #7993B6, rgb(91, 107, 135));
+    font-family: 'Spectral';
+
+}
+
+/*
+--slate-gray: #6A7C9Aff;
+--onyx: #373949ff;
+--raisin-black: #2E2D39ff;
+--cool-gray: #9496A7ff;
+--oxford-blue: #1E2536ff;
+--silver: #BAABA8ff;
+--jasmine: #FCDF91ff;
+*/
+
+body {
+    margin: 0;
+}
+
+header {
+    color: #FCDF91ff;
+    font-family: 'Spectral';
+    background: #373949ff; 
+    background: linear-gradient(0deg, #373949ff, rgb(50, 52, 66), #373949ff);
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally with space between */
+    align-items: center; /* Vertically center items */
+    padding-right: 10px; /* Add padding to the right to create a gap */
+    padding-left: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 10%;
+    height: auto; 
+}
+
+
+.nav-items ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-items ul li {
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.nav-items ul li a {
+    text-decoration: none;
+    color: #FCDF91ff;
+}
+
+
+footer {
+    color: #373949ff;
+    font-family: 'Spectral';
+
+    background: linear-gradient(0deg, #FCDF91ff, rgb(230, 204, 132), #FCDF91ff);
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
