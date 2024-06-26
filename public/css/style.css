@@ -76,10 +76,10 @@ header {
 
 
 footer {
-    color: #373949ff;
+    color: #FCDF91ff;
     font-family: 'Spectral';
 
-    background: linear-gradient(0deg, #FCDF91ff, rgb(230, 204, 132), #FCDF91ff);
+    background: linear-gradient(0deg, #373949ff, rgb(50, 52, 66), #373949ff);
     font-size: 22px;
     padding-top: 10px;
     padding-bottom: 10px;
